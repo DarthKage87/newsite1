@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/newsite1/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/company/</loc>
+    <loc>http://localhost:1313/newsite1/company/</loc>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/newsite1/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/industries/</loc>
+    <loc>http://localhost:1313/newsite1/industries/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/newsite1/</loc>
   </url><url>
-    <loc>//localhost:1313/resources/</loc>
+    <loc>http://localhost:1313/newsite1/resources/</loc>
   </url><url>
-    <loc>//localhost:1313/services/</loc>
+    <loc>http://localhost:1313/newsite1/services/</loc>
   </url><url>
-    <loc>//localhost:1313/solutions/</loc>
+    <loc>http://localhost:1313/newsite1/solutions/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/newsite1/tags/</loc>
   </url>
 </urlset>
