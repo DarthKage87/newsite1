@@ -1,0 +1,160 @@
+
+
+
+languageCode = 'en-us'
+title = "Rational Exponent"
+themesDir = 'themes'
+theme = 'Hextra'
+toc = false
+
+[sidebar]
+exclude = true
+
+[params.footer]
+displayPoweredBy = false
+displayCopyright = false
+
+[params.assets]
+disableFingerprinting = true
+
+[params.page]
+# full (100%), wide (90rem), normal (1280px)
+width = "wide"
+
+[params]
+description = "Rational Exponent is a leading provider of innovative solutions for the financial services industry. We specialize in delivering cutting-edge technology and consulting services to help our clients navigate the complexities of the financial landscape."
+keywords = "financial services, technology solutions, consulting services, Rational Exponent"
+
+[params.navbar]
+displayTitle = false
+displayLogo = true
+width = "wide"
+
+[params.navbar.logo]
+path = "images/main-logo.jpg"
+dark = "images/main-logo.jpg"
+width = 150
+height = 75
+link = "/"
+
+
+
+[security]
+enableInlineShortcodes = true
+
+[menu]
+[[menu.main]]
+title = "test"
+identifier = "home"
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "solutions"
+name = "Solutions"
+pageRef = "/solutions"
+weight = 2
+
+[[menu.main]]
+identifier = "industries"
+name = "Industries"
+pageRef = "/industries"
+weight = 3
+
+[[menu.main]]
+identifier = "resources"
+name = "Resources"
+pageRef = "/resources"
+weight = 4
+
+[[menu.main]]
+identifier = "company"
+name = "Company"
+pageRef = "/company"
+weight = 5
+
+[menus]
+  [[menus.footer]]
+    name = 'Terms'
+    pageRef = '/terms'
+    weight = 10
+  [[menus.footer]]
+    name = 'Privacy'
+    pageRef = '/privacy'
+    weight = 20
+
+[markup]
+[markup.goldmark]
+duplicateResourceFiles = false
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = 'https'
+strikethrough = true
+table = true
+taskList = true
+
+[markup.goldmark.extensions.cjk]
+eastAsianLineBreaks = false
+eastAsianLineBreaksStyle = 'simple'
+enable = false
+escapedSpace = false
+
+[markup.goldmark.extensions.extras]
+[markup.goldmark.extensions.extras.delete]
+enable = false
+
+[markup.goldmark.extensions.extras.insert]
+enable = false
+
+[markup.goldmark.extensions.extras.mark]
+enable = false
+
+[markup.goldmark.extensions.extras.subscript]
+enable = false
+
+[markup.goldmark.extensions.extras.superscript]
+enable = false
+
+[markup.goldmark.extensions.passthrough]
+enable = false
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = []
+inline = []
+
+[markup.goldmark.extensions.typographer]
+apostrophe = '&rsquo;'
+ellipsis = '&hellip;'
+emDash = '&mdash;'
+enDash = '&ndash;'
+leftAngleQuote = '&laquo;'
+leftDoubleQuote = '&ldquo;'
+leftSingleQuote = '&lsquo;'
+rightAngleQuote = '&raquo;'
+rightDoubleQuote = '&rdquo;'
+rightSingleQuote = '&rsquo;'
+
+[markup.goldmark.parser]
+autoDefinitionTermID = false
+autoHeadingID = true
+autoIDType = 'github'
+wrapStandAloneImageWithinParagraph = true
+
+[markup.goldmark.parser.attribute]
+block = false
+title = true
+
+[markup.goldmark.renderHooks]
+[markup.goldmark.renderHooks.image]
+enableDefault = false
+
+[markup.goldmark.renderHooks.link]
+enableDefault = false
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = false
